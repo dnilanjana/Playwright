@@ -1,0 +1,19 @@
+{
+  "name": "playwright_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "script1": "npx playwright test --headed",
+    "specificScript": "npx playwright test tests/login.spec.js",
+    "script2": "npx playwright test --ui",
+    "scriptReport": "npx playwright show-report",
+    "anotherFile": "npx playwright test mytest/login.spec.js --headed "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}
